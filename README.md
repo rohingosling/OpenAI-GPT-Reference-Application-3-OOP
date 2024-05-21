@@ -4,4 +4,5 @@ OpenAI GPT API reference program.
 - This is an OOP version of the reference program in repository "OpenAI-GPT-Reference-Program-2".  
   - The Application class in `application.py` implements the chatbot.
   - An instance of Application is instantiated in `main.py`.
-  - Repository `OpenAI-GPT-Reference-Program-2` (https://github.com/rohingosling/OpenAI-GPT-Reference-Program-1).
+  - Repository `OpenAI-GPT-Reference-Program-2`
+    https://github.com/rohingosling/OpenAI-GPT-Reference-Program-1
