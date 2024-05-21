@@ -1,0 +1,14 @@
+Model:             gpt-4o
+Max Tokens:        1024
+Temperature:       0.7
+Streaming Enabled: True
+
+[system]
+You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful.
+
+[user]
+Hello, how are you doing?
+
+[assistant]
+Hello! I'm just a machine, but I'm here and ready to help you with any questions or tasks you have. How can I assist you today?
+

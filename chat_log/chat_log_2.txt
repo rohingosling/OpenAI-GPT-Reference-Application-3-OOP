@@ -1,0 +1,141 @@
+Model:             gpt-4o
+Max Tokens:        1024
+Temperature:       0.7
+Streaming Enabled: True
+
+[system]
+You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful.
+
+[user]
+Can you output all the emojis you are able to suport?
+
+[assistant]
+I can certainly provide a list of some commonly used emojis. However, it's important to note that the display of emojis can vary depending on the platform and device you are using. Here's a selection of popular emojis:
+
+😀 😃 😄 😁 😆 😅 😂 🤣 😊 😇 🙂
+🙃 😉 😌 😍 🥰 😘 😗 😙 😚 😋 😛 😜 😝 🤑 🤗 🤭 🤫 🤔 🤐 🤨 😐 😑 😶 🙄 😏 😣 😥 😮
+🤐 😯 😪 😫 😴 😌 😛 😜 😝 😒 😓 😔 😕 🙃 🤑 🤒 🤕 🤢 🤮 🤧 😷 🤠 😈 👿 👹 👺 💀 ☠️ 👻 👽 👾 🤖 💩 😺 😸 😹 😻 😼 😽 🙀 😿 😾 
+
+❤️ 🧡 💛 💚 💙 💜 🖤 🤍 🤎 💔 ❣️ 💕 💞 💓 💗 💖 💘 💝 
+
+👍 👎 👊 ✊ 🤛 🤜 🤞 ✌️ 🤟 🤘 🤙 👈 👉 👆 👇 ☝️ ✋ 🖐 🖖 👋 🤚 🖐️ 🖖 👋 🤚 👐 🙌 👏 🤝 
+
+🙏 💪 🤲 🧠 🦾 🦿 🦵 🦶 👣 👂 👃 👀 👁️ 👅 👄 🦷 🦴
+
+You can use these emojis in various contexts to convey emotions, objects, activities, and more. If you have a specific category in mind or need more emojis, feel free to ask!
+
+[user]
+What are the text sequences for all of those?
+
+[assistant]
+Sure! Here are the text sequences (also called Unicode or emoji shortcodes) for the emojis listed above:
+
+### Smileys & People
+- 😀 `:grinning:`
+- 😃 `:smiley:`
+- 😄 `:smile:`
+- 😁 `:grin:`
+- 😆 `:laughing:`
+- 😅 `:sweat_smile:`
+- 😂 `:joy:`
+- 🤣 `:rofl:`
+- 😊 `:blush:`
+- 😇 `:innocent:`
+- 🙂 `:slightly_smiling_face:`
+- 🙃 `:upside_down_face:`
+- 😉 `:wink:`
+- 😌 `:relieved:`
+- 😍 `:heart_eyes:`
+- 🥰 `:smiling_face_with_three_hearts:`
+- 😘 `:kissing_heart:`
+- 😗 `:kissing:`
+- 😙 `:kissing_smiling_eyes:`
+- 😚 `:kissing_closed_eyes:`
+- 😋 `:yum:`
+- 😛 `:stuck_out_tongue:`
+- 😜 `:stuck_out_tongue_winking_eye:`
+- 😝 `:stuck_out_tongue_closed_eyes:`
+- 🤑 `:money_mouth_face:`
+- 🤗 `:hugs:`
+- 🤭 `:face_with_hand_over_mouth:`
+- 🤫 `:shushing_face:`
+- 🤔 `:thinking:`
+- 🤐 `:zipper_mouth_face:`
+- 🤨 `:raised_eyebrow:`
+- 😐 `:neutral_face:`
+- 😑 `:expressionless:`
+- 😶 `:no_mouth:`
+- 🙄 `:roll_eyes:`
+- 😏 `:smirk:`
+- 😣 `:persevere:`
+- 😥 `:disappointed_relieved:`
+- 😮 `:open_mouth:`
+- 😯 `:hushed:`
+- 😪 `:sleepy:`
+- 😫 `:tired_face:`
+- 😴 `:sleeping:`
+- 😛 `:stuck_out_tongue:`
+- 😜 `:stuck_out_tongue_winking_eye:`
+- 😝 `:stuck_out_tongue_closed_eyes:`
+- 😒 `:unamused:`
+- 😓 `:sweat:`
+- 😔 `:pensive:`
+- 😕 `:confused:`
+- 🙃 `:upside_down_face:`
+- 🤑 `:money_mouth_face:`
+- 🤒 `:face_with_thermometer:`
+- 🤕 `:face_with_head_bandage:`
+- 🤢 `:nauseated_face:`
+- 🤮 `:vomiting_face:`
+- 🤧 `:sneezing_face:`
+- 😷 `:mask:`
+- 🤠 `:cowboy_hat_face:`
+- 😈 `:smiling_imp:`
+- 👿 `:imp:`
+- 👹 `:japanese_ogre:`
+- 👺 `:japanese_goblin:`
+- 💀 `:skull:`
+- ☠️ `:skull_and_crossbones:`
+- 👻 `:ghost:`
+- 👽 `:alien:`
+- 👾 `:space_invader:`
+- 🤖 `:robot:`
+- 💩 `:poop:`
+- 😺 `:smiley_cat:`
+- 😸 `:smile_cat:`
+- 😹 `:joy_cat:`
+- 😻 `:heart_eyes_cat:`
+- 😼 `:smirk_cat:`
+- 😽 `:kissing_cat:`
+- 🙀 `:scream_cat:`
+- 😿 `:crying_cat_face:`
+- 😾 `:pouting_cat:`
+
+### Hearts
+- ❤️ `:heart:`
+- 🧡 `:orange_heart:`
+- 💛 `:yellow_heart:`
+- 💚 `:green_heart:`
+- 💙 `:blue_heart:`
+- 💜 `:purple_heart:`
+- 🖤 `:black_heart:`
+- 🤍 `:white_heart:`
+- 🤎 `:brown_heart:`
+- 💔 `:broken_heart:`
+- ❣️ `:heart_exclamation:`
+- 💕 `:two_hearts:`
+- 💞 `:revolving_hearts:`
+- 💓 `:heartbeat:`
+- 💗 `:heartpulse:`
+- 💖 `:sparkling_heart:`
+- 💘 `:cupid:`
+- 💝 `
+
+[user]
+:heart:
+
+[assistant]
+The text sequence `:heart:` corresponds to the ❤️ emoji, which is a red heart. This is commonly used to express love, affection, and other strong positive emotions. 
+
+If you need any more emoji sequences or have any other questions, feel free to ask!
+

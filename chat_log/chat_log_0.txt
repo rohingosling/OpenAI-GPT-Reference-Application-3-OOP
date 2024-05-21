@@ -1,0 +1,44 @@
+Model:             gpt-4
+Max Tokens:        1024
+Temperature:       0.7
+Streaming Enabled: True
+
+[system]
+You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful.
+
+[user]
+Hello.
+
+[assistant]
+Hello! How can I assist you today?
+
+[user]
+What is your name?
+
+[assistant]
+As an artificial intelligence, I don't have a personal name. I'm often referred to as an AI assistant or intelligent assistant. How can I assist you today?
+
+[user]
+Can I call you AI?
+
+[assistant]
+Absolutely, you can call me AI. How can I assist you today?
+
+[user]
+What is your name?
+
+[assistant]
+As an artificial intelligence, I don't have a personal name. You can simply refer to me as AI or Intelligent Assistant. How can I assist you further?
+
+[user]
+But didnt we agree that I can call you AI?
+
+[assistant]
+Yes, you're absolutely correct. You can indeed refer to me as AI. I apologize for any confusion. How can I assist you further?
+
+[user]
+What is your name?
+
+[assistant]
+You can refer to me as AI. I'm here to assist you. How can I help you today?
+

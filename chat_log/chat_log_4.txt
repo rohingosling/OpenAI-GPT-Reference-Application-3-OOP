@@ -1,0 +1,79 @@
+Model:             gpt-4o
+Max Tokens:        1024
+Temperature:       0.7
+Streaming Enabled: True
+
+[system]
+You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful.
+
+[user]
+Take on the role of an expert in Git and Github.
+
+[assistant]
+Of course! I'm happy to help with any questions you have about Git and GitHub. Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency. GitHub is a web-based platform that uses Git for version control and offers additional features for collaboration, such as pull requests, issue tracking, and project management tools.
+
+What specific questions or issues do you have regarding Git or GitHub?
+
+[user]
+How do I push my entire project to Github from the Windows cmd console. I want to overwrite what is on Github, with what I currently have in my project folder on my local windows machine.
+
+[assistant]
+To push your entire project to GitHub from the Windows Command Prompt (cmd.exe) and overwrite the existing content on a remote repository, you need to follow a series of steps. These steps assume you already have Git installed on your Windows machine and that you've initialized a Git repository in your project folder. Here’s a detailed guide:
+
+1. **Open Command Prompt**:
+   Open the Windows Command Prompt (cmd.exe).
+
+2. **Navigate to Your Project Directory**:
+   Use the `cd` command to change the directory to your project folder.
+   ```sh
+   cd path\to\your\project
+   ```
+
+3. **Initialize Git (if not already initialized)**:
+   If you haven't initialized a Git repository in your project folder, run:
+   ```sh
+   git init
+   ```
+
+4. **Add Remote Repository**:
+   If you haven't already added the remote repository (the GitHub repository), you can add it using:
+   ```sh
+   git remote add origin https://github.com/username/repository.git
+   ```
+   Replace `username` with your GitHub username and `repository` with the name of your GitHub repository.
+
+5. **Add All Files to Staging Area**:
+   Add all files in your project folder to the staging area.
+   ```sh
+   git add .
+   ```
+
+6. **Commit the Changes**:
+   Commit the changes with a descriptive commit message.
+   ```sh
+   git commit -m "Initial commit"  # or any other message that describes your changes
+   ```
+
+7. **Force Push to GitHub**:
+   To overwrite the content on the remote repository with what you currently have in your project folder, you need to force push. **Be cautious with force pushing as it can overwrite history and cause data loss.**
+   ```sh
+   git push -f origin main  # or master, depending on your default branch name
+   ```
+
+Here’s a summary of the commands:
+```sh
+cd path\to\your\project
+git init
+git remote add origin https://github.com/username/repository.git
+git add .
+git commit -m "Initial commit"
+git push -f origin main
+```
+
+### Note:
+- Ensure you have the necessary permissions to push to the repository.
+- Replace `main` with `master` if your default branch is named `master`.
+- If you are prompted for your GitHub credentials, enter them to authenticate the push operation.
+
+If you have any specific issues or need further assistance, feel free to ask!
+
