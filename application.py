@@ -1,6 +1,5 @@
 import os
-from   datetime import datetime
-from   openai   import OpenAI
+from   openai import OpenAI
 
 class Application:
 
@@ -26,7 +25,7 @@ class Application:
         self.max_tokens           = 1024
         self.temperature          = 0.7
         self.streaming_enabled    = True
-        self.system_prompt        = 'You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful.'
+        self.system_prompt        = 'You are a general purpose AI assistant. You always provide well-reasoned answers that are both correct and helpful.'
         self.conversation_history = [ { "role": "system", "content": self.system_prompt } ]
         self.command              = self.COMMAND_RUN
         self.chat_log_folder      = 'chat_log'
@@ -66,7 +65,7 @@ class Application:
 
     def get_user_prompt ( self ):
 
-        user_input = input ( f"{self.CONSOLE_PROMPT_USER}\n" )
+        user_input = input ( f"\n{self.CONSOLE_PROMPT_USER}\n" )
         return user_input
     
     #---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -134,12 +133,12 @@ class Application:
                     print ( chunk.choices [ 0 ].delta.content, end = "", flush = True )
                     response_stream [ "content" ] += chunk.choices [ 0 ].delta.content
 
-            print ( "\n" )
+            print ()
             return response_stream [ "content" ]
         
         else:
 
-            print ( f"{response}\n" )
+            print ( f"{response}" )
             return response
         
     #---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -154,7 +153,6 @@ class Application:
         print ( f'- Max Tokens:        {self.max_tokens}' )
         print ( f'- Temperature:       {self.temperature}' )
         print ( f'- Streaming Enabled: {self.streaming_enabled}' )
-        print ()
 
     #---------------------------------------------------------------------------------------------------------------------------------------------------------
     # Save chat log to file. 
